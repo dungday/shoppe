@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">  
+        <header class="header">
+            <div class="grid wide">
+            
+                <!-- Nav -->
+                <nav class="navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__item navbar__item--separate navbar__check-qr">
+                            Vào cửa hàng trên ứng dụng F8-Shop
+                            <div class="navbar__qr">
+                                <img src="./assets/img/qrcode_www.facebook.com.png" alt="" class="navbar__qr-img">
+                                <div class="navbar__qr-downloads"> 
+                                    <a href="" class="navbar__qr-apps">
+                                        <img src="./assets/img/app_store.png" alt="App Store" class="navbar__qr-icon">
+                                    </a>
+                                    <a href="" class="navbar__qr-apps">
+                                        <img src="./assets/img/gg-play.png" alt="Google Play" class="navbar__qr-icon">
+                                    </a>
+                                </div>
+                                
+                            </div>
+
+                        </li>
+                        <li class="navbar__item">Kết nối</li>
+                        <a class="navbar__icons">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a class="navbar__icons ml-8">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </ul>
+        
+                    <ul class="navbar__list">
+                        <li class="navbar__item navbar__check-notify">
+                            <a class="navbar__icons">
+                                <i class="fa-regular fa-bell"></i>
+                            </a>
+                            Thông báo
+                            <div class="navbar__notify">
+                                <div class="navbar__notify-header">
+                                    <h3>
+                                    Thông báo mới nhận
+                                    </h3>
+                                </div>
+                                <ul class="navbar__notify-list">
+                                    <li class="navbar__notify-items navbar__notify-items--check">
+                                        <img src="./assets/img/cake.jpg" alt="" class="navbar__notify-img">
+                                        <div class="navbar__notify-info">
+                                            <div class="navbar__notify-info-header">
+                                                Món bánh ngon và hấp dẫn
+                                            </div>
+                                            <div class="navbar__notify-info-content">
+                                                Sản phẩm từ tập đoàn Tout les jour
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li class="navbar__notify-items ">
+                                        <img src="./assets/img/cafe.jpg" alt="" class="navbar__notify-img">
+                                        <div class="navbar__notify-info">
+                                            <div class="navbar__notify-info-header">
+                                                Hương vị Cafe G7 đem lại sự hòa quyện tuyệt vời
+                                            </div>
+                                            <div class="navbar__notify-info-content">
+                                                Uống vào có giúp mình tỉnh ngủ không?
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li class="navbar__notify-items">
+                                        <img src="./assets/img/Fast-Food-of-MinaFood-2.jpg" alt="" class="navbar__notify-img">
+                                        <div class="navbar__notify-info">
+                                            <div class="navbar__notify-info-header">
+                                                Đồ ăn nhanh, đặt nhanh đến sớm cho mọi người
+                                            </div>
+                                            <div class="navbar__notify-info-content">
+                                                Sản phẩm không gây tăng cân
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li class="navbar__notify-items navbar__notify-items--check">
+                                        <img src="./assets/img/nem.jpg" alt="" class="navbar__notify-img">
+                                        <div class="navbar__notify-info">
+                                            <div class="navbar__notify-info-header">
+                                                Nem quê Bắc Ninh, dai ngon từng miếng
+                                            </div>
+                                            <div class="navbar__notify-info-content">
+                                                Hương vị đậm chất quê hương quan họ
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li class="navbar__notify-items">
+                                        <img src="./assets/img/meat.jpg" alt="" class="navbar__notify-img">
+                                        <div class="navbar__notify-info">
+                                            <div class="navbar__notify-info-header">
+                                                Món thịt bò sang trọng, đẳng cấp top 1
+                                            </div>
+                                            <div class="navbar__notify-info-content">
+                                                Thơm ngon từng thớ thịt
+                                            </div>
+                                        </div> 
+                                    </li>
+                                </ul>
+                                <footer class="navbar__notify-footer">
+                                    <a href="" class="navbar__notify-view-all">
+                                        Xem tất cả
+                                    </a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="navbar__item ">
+                            <a class="navbar__icons">
+                                <i class="fa-regular fa-circle-question"></i>
+                            </a>
+                            Trợ giúp
+                        </li>
+
+                        <!-- Begin Chưa đăng nhập -->
+                        <!-- <li class="navbar__item navbar__item--separate">
+                            <a href="" class="navbar__link navbar__link--bold">Đăng ký</a>    
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link navbar__link--bold">Đăng nhập</a>    
+                        </li> -->
+                        <!-- End chưa đăng nhập -->
+
+                        <!-- Đã đăng nhập -->
+                        <li class="navbar__item">
+                            <img src="./assets/img/qrcode_www.facebook.com.png" alt="" class="navbar__link-avt">
+                            <a href="" class="navbar__link navbar__link--bold">Dũng Đây </a>    
+                        </li>
+                    </ul>
+                </nav>
+
+                <!--  -->
+                <div class="search-container">
+                    <div class="search-container__logo">
+                        <div href="" class="search-container__link">
+                            <a class="search-container__img">
+                                <img src="./assets/img/21b2b21.png" alt="" class="search-container__img">
+                            </a>
+                            <span class="search-container__text">BamBan</span>
+                        </div>
+                    </div>
+                    <div class="search-container__search">
+                        <div class="search-container__search-bar">
+                            <div class="search-container__search-input-wrap">
+                                <input type="text" class="search-container__search-input" placeholder="Tìm sản phẩm, thương hiệu và tên shop">
+                               
+                                <!-- Search history -->
+                                <div class="search-container__search-history">
+                                    <h3 class="search-container__search-history-heading">
+                                        Lịch sử tìm kiếm
+                                        <ul class="search-container__search-history-list">
+                                            <li class="search-container__search-history-items">
+                                                <a href="">Cafe</a>
+                                            </li>
+                                            <li class="search-container__search-history-items">
+                                               <a href="">Tủ quần áo</a>
+                                            </li>
+                                            <li class="search-container__search-history-items">
+                                                <a href="">Bánh quy</a>
+                                            </li>
+                                        </ul>
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="search-container__search-btn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="row sm-gutter search-container__list-keyword">
+                            <a href="" class="col l-1 search-container__keyword">Dép Nam</a>
+                            <a href="" class="col l-1 search-container__keyword">Kaki Nữ</a>
+                            <a href="" class="col l-1 search-container__keyword">Tủ Nhựa</a>
+                            <a href="" class="col l-1 search-container__keyword">Quần Jean Nữ</a>
+                            <a href="" class="col l-1 search-container__keyword">Áo Khoác Kaki</a>
+                            <a href="" class="col l-1 search-container__keyword">Tất Nam</a>
+                            <a href="" class="col l-1 search-container__keyword">Áo Dài Tay</a>
+                            <a href="" class="col l-1 search-container__keyword">Đầm Công chúa</a>
+                        </div>
+                    </div>
+
+                    <!-- Cart layout -->
+                    <div class="search-container__cart">
+                        <div class="search-container__cart--check">
+                            <a class="search-container__cart-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="search-container__cart-notice">3</span>
+                            </a>
+
+                            <!-- add no cart: class = "search-container__cart-list--no-cart" -->
+                            <div class="search-container__cart-list ">
+                                <img src="./assets/img/no-cart.png" alt="" class="search-container__cart-no-cart-img">
+                                <span class="search-container__cart-msg">Chưa có sản phẩm</span>
+
+                                <h4 class="search-container__cart-header">
+                                    Sản phẩm đã thêm
+                                </h4>
+                                <ul class="search-container__cart-list-item">
+                                    <li class="search-container__cart-item">
+                                        <img src="./assets/img/hamburger.jpg" alt="" class="search-container__cart-item-img">
+                                        <div class="search-container__cart-item-info">
+                                            <div class="search-container__cart-item-head">
+                                                <h5 class="search-container__cart-item-name">
+                                                    Hamburger ngon bá cháy
+                                                </h5>
+                                                <span class="search-container__cart-item-price">
+                                                    45.000đ
+                                                </span>
+                                                <span class="search-container__cart-item-multiply">
+                                                    x
+                                                </span>
+                                                <span class="search-container__cart-item-quantity">
+                                                    1
+                                                </span>
+                                            </div>
+                                            <div class="search-container__cart-item-body">
+                                                <span class="search-container__cart-item-description">
+                                                    Phân loại: size L
+                                                </span>
+                                                <span class="search-container__cart-item-remove">
+                                                    Xóa
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="search-container__cart-item">
+                                        <img src="./assets/img/hamburger.jpg" alt="" class="search-container__cart-item-img">
+                                        <div class="search-container__cart-item-info">
+                                            <div class="search-container__cart-item-head">
+                                                <h5 class="search-container__cart-item-name">
+                                                    Hamburger ngon bá cháy
+                                                </h5>
+                                                <span class="search-container__cart-item-price">
+                                                    45.000đ
+                                                </span>
+                                                <span class="search-container__cart-item-multiply">
+                                                    x
+                                                </span>
+                                                <span class="search-container__cart-item-quantity">
+                                                    1
+                                                </span>
+                                            </div>
+                                            <div class="search-container__cart-item-body">
+                                                <span class="search-container__cart-item-description">
+                                                    Phân loại: size L
+                                                </span>
+                                                <span class="search-container__cart-item-remove">
+                                                    Xóa
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="search-container__cart-item">
+                                        <img src="./assets/img/hamburger.jpg" alt="" class="search-container__cart-item-img">
+                                        <div class="search-container__cart-item-info">
+                                            <div class="search-container__cart-item-head">
+                                                <h5 class="search-container__cart-item-name">
+                                                    Hamburger ngon bá cháy
+                                                </h5>
+                                                <span class="search-container__cart-item-price">
+                                                    45.000đ
+                                                </span>
+                                                <span class="search-container__cart-item-multiply">
+                                                    x
+                                                </span>
+                                                <span class="search-container__cart-item-quantity">
+                                                    1
+                                                </span>
+                                            </div>
+                                            <div class="search-container__cart-item-body">
+                                                <span class="search-container__cart-item-description">
+                                                    Phân loại: size L
+                                                </span>
+                                                <span class="search-container__cart-item-remove">
+                                                    Xóa
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="search-container__cart-button">
+                                    <button class="btn btn--primary btn-right">Xem giỏ hàng</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container grid wide row">
+                <div class="produce-menu col l-2 m-2 c-0">
+                    <h3 class="produce-menu__header">
+                        <i class="fa-solid fa-list"></i>
+                        <span>Danh Mục</span>
+                    </h3>
+                    <ul class="produce-menu__list">
+                        <i class="fa-solid fa-caret-right"></i>
+                        Sản phẩm
+                        <li class="produce-menu__item">
+                            <a href="" class="produce-menu__item-link">
+                                Bánh da nem
+                            </a>
+                        </li>
+                        <li class="produce-menu__item">
+                            <a href="" class="produce-menu__item-link">
+                                Salad 
+                            </a>
+                        </li>
+                        <li class="produce-menu__item">
+                            <a href="" class="produce-menu__item-link">
+                                Thịt
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="produce col l-10 m-10 c-12">
+                    <div class="produce__bar">
+                        <div class="produce__bar-list col l-12 ">
+                            <div class="produce-bar__label col l-1-2 ">
+                                Sắp xếp theo
+                            </div>
+                            <div class="produce-bar__option col l-8-9">
+                                <div class="row grid">
+                                    <div class="procedu-bar__btn bgr-red  col l-2">
+                                        Phổ biến
+                                    </div>
+                                    <div class="procedu-bar__btn bgr-white col l-2">
+                                        Mới nhất
+                                    </div>
+                                    <div class="procedu-bar__btn bgr-white col l-2">
+                                        Bán chạy
+                                    </div>
+                                    <div class="produce-bar__price col l-3">
+                                        Giá
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                        <ul class="produce-bar_arrange">
+                                            <li  class="produce-bar_arrange--hover">Giá: Thấp đến cao</li>
+                                            <li  class="produce-bar_arrange--hover">Giá: Cao đến thấp</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                            <div class="produce-bar__controller col l-1-2">
+                                <div class="produce-bar__controller-state">
+                                    <span class="produce-bar__controller-current">1</span><span class="produce-bar__controller-total">/2</span>
+                                </div>
+                                <div class="produce-bar__controller-btn">
+                                    <p class="produce-bar__btn produce-bar__btn--none">
+                                        <i class="fa-solid fa-angle-left"></i>
+                                    </p>
+                                    <p class="produce-bar__btn produce-bar__btn--available">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produce__list-item row sm-gutter">
+                        
+                            <div class="produce__item col l-2-4 m-3 c-12">
+                                <div class="produce__item-main">
+                                    <img src="./assets/img/thit.jpg" alt="" class="produce__item-img">
+                                    <div class="produce__item-body">
+                                        <div class="produce__item-header">
+                                            Sản phẩm này có tên là thịt lợn, thịt lợn quê, ngon như nhà làm
+                                        </div>
+                                    
+                                        <a href="" class="produce__item-name">
+                                            Shop abc
+                                        </a> <br>
+        
+                                        <p class="produce__item-price produce__item--freeship">
+                                            <span class="produce__item-unit">đ</span> <span class="produce__item-money">1.000</span>
+                                            - <span class="produce__item-unit">đ</span> <span class="produce__item-money">2.000</span>
+                                        </p>
+        
+                                        <div class="produce__item-status">
+                                            <span class="produce__item--like">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <span class="produce__item-vote">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>    
+                                            </span>
+                                            <span class="produce__item-sold">
+                                                Đã bán 2022 
+                                            </span>
+                                        </div>
+        
+                                        <span class="produce__item-address">
+                                            Hà Nội 
+                                        </span>
+                                        <div class="clear-right"></div>
+                                    </div>                               
+                                </div>
+                            </div>      
+                            <div class="produce__item col l-2-4 m-3 c-12">
+                                <div class="produce__item-main">
+                                    <img src="./assets/img/thit.jpg" alt="" class="produce__item-img">
+                                    <div class="produce__item-body">
+                                        <div class="produce__item-header">
+                                            Sản phẩm này có tên là thịt lợn, thịt lợn quê, ngon như nhà làm
+                                        </div>
+                                    
+                                        <a href="" class="produce__item-name">
+                                            Shop abc
+                                        </a> <br>
+        
+                                        <p class="produce__item-price produce__item--freeship">
+                                            <span class="produce__item-unit">đ</span> <span class="produce__item-money">1.000</span>
+                                            - <span class="produce__item-unit">đ</span> <span class="produce__item-money">2.000</span>
+                                        </p>
+        
+                                        <div class="produce__item-status">
+                                            <span class="produce__item--like">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <span class="produce__item-vote">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>    
+                                            </span>
+                                            <span class="produce__item-sold">
+                                                Đã bán 2022 
+                                            </span>
+                                        </div>
+        
+                                        <span class="produce__item-address">
+                                            Hà Nội 
+                                        </span> 
+                                        <div class="clear-right"></div>
+                                    </div>                               
+                                </div>
+                            </div> 
+                            <div class="produce__item col l-2-4 m-3 c-12">
+                                <div class="produce__item-main">
+                                    <img src="./assets/img/thit.jpg" alt="" class="produce__item-img">
+                                    <div class="produce__item-body">
+                                        <div class="produce__item-header">
+                                            Sản phẩm này có tên là thịt lợn, thịt lợn quê, ngon như nhà làm
+                                        </div>
+                                    
+                                        <a href="" class="produce__item-name">
+                                            Shop abc
+                                        </a> <br>
+        
+                                        <p class="produce__item-price produce__item--freeship">
+                                            <span class="produce__item-unit">đ</span> <span class="produce__item-money">1.000</span>
+                                            - <span class="produce__item-unit">đ</span> <span class="produce__item-money">2.000</span>
+                                        </p>
+        
+                                        <div class="produce__item-status">
+                                            <span class="produce__item--like">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <span class="produce__item-vote">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>    
+                                            </span>
+                                            <span class="produce__item-sold">
+                                                Đã bán 2022 
+                                            </span>
+                                        </div>
+        
+                                        <span class="produce__item-address">
+                                            Hà Nội 
+                                        </span> 
+                                        <div class="clear-right"></div>
+                                    </div>                               
+                                </div>
+                            </div> 
+                            <div class="produce__item col l-2-4 m-3 c-12">
+                                <div class="produce__item-main">
+                                    <img src="./assets/img/thit.jpg" alt="" class="produce__item-img">
+                                    <div class="produce__item-body">
+                                        <div class="produce__item-header">
+                                            Sản phẩm này có tên là thịt lợn, thịt lợn quê, ngon như nhà làm
+                                        </div>
+                                    
+                                        <a href="" class="produce__item-name">
+                                            Shop abc
+                                        </a> <br>
+        
+                                        <p class="produce__item-price produce__item--freeship">
+                                            <span class="produce__item-unit">đ</span> <span class="produce__item-money">1.000</span>
+                                            - <span class="produce__item-unit">đ</span> <span class="produce__item-money">2.000</span>
+                                        </p>
+        
+                                        <div class="produce__item-status">
+                                            <span class="produce__item--like">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <span class="produce__item-vote">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>    
+                                            </span>
+                                            <span class="produce__item-sold">
+                                                Đã bán 2022 
+                                            </span>
+                                        </div>
+        
+                                        <span class="produce__item-address">
+                                            Hà Nội 
+                                        </span> 
+                                        <div class="clear-right"></div>
+                                    </div>                               
+                                </div>
+                            </div> 
+                            <div class="produce__item col l-2-4 m-3 c-12">
+                                <div class="produce__item-main">
+                                    <img src="./assets/img/thit.jpg" alt="" class="produce__item-img">
+                                    <div class="produce__item-body">
+                                        <div class="produce__item-header">
+                                            Sản phẩm này có tên là thịt lợn, thịt lợn quê, ngon như nhà làm
+                                        </div>
+                                    
+                                        <a href="" class="produce__item-name">
+                                            Shop abc
+                                        </a> <br>
+        
+                                        <p class="produce__item-price produce__item--freeship">
+                                            <span class="produce__item-unit">đ</span> <span class="produce__item-money">1.000</span>
+                                            - <span class="produce__item-unit">đ</span> <span class="produce__item-money">2.000</span>
+                                        </p>
+        
+                                        <div class="produce__item-status">
+                                            <span class="produce__item--like">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <span class="produce__item-vote">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>    
+                                            </span>
+                                            <span class="produce__item-sold">
+                                                Đã bán 2022 
+                                            </span>
+                                        </div>
+        
+                                        <span class="produce__item-address">
+                                            Hà Nội 
+                                        </span> 
+                                        <div class="clear-right"></div>
+                                    </div>                               
+                                </div>
+                            </div> 
+                                        
+                            <div class="produce__item col l-2-4 m-3 c-12">
+                                <div class="produce__item-main">
+                                    <img src="./assets/img/thit.jpg" alt="" class="produce__item-img">
+                                    <div class="produce__item-body">
+                                        <div class="produce__item-header">
+                                            Sản phẩm này có tên là thịt lợn, thịt lợn quê, ngon như nhà làm
+                                        </div>
+                                    
+                                        <a href="" class="produce__item-name">
+                                            Shop abc
+                                        </a> <br>
+        
+                                        <p class="produce__item-price produce__item--freeship">
+                                            <span class="produce__item-unit">đ</span> <span class="produce__item-money">1.000</span>
+                                            - <span class="produce__item-unit">đ</span> <span class="produce__item-money">2.000</span>
+                                        </p>
+        
+                                        <div class="produce__item-status">
+                                            <span class="produce__item--like">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <span class="produce__item-vote">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>    
+                                            </span>
+                                            <span class="produce__item-sold">
+                                                Đã bán 2022 
+                                            </span>
+                                        </div>
+        
+                                        <span class="produce__item-address">
+                                            Hà Nội 
+                                        </span> 
+                                        <div class="clear-right"></div>
+                                    </div>                               
+                                </div>
+                            </div>
+                            <div class="produce__item col l-2-4 m-3 c-12">
+                                <div class="produce__item-main">
+                                    <img src="./assets/img/thit.jpg" alt="" class="produce__item-img">
+                                    <div class="produce__item-body">
+                                        <div class="produce__item-header">
+                                            Sản phẩm này có tên là thịt lợn, thịt lợn quê, ngon như nhà làm
+                                        </div>
+                                    
+                                        <a href="" class="produce__item-name">
+                                            Shop abc
+                                        </a> <br>
+        
+                                        <p class="produce__item-price produce__item--freeship">
+                                            <span class="produce__item-unit">đ</span> <span class="produce__item-money">1.000</span>
+                                            - <span class="produce__item-unit">đ</span> <span class="produce__item-money">2.000</span>
+                                        </p>
+        
+                                        <div class="produce__item-status">
+                                            <span class="produce__item--like">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <span class="produce__item-vote">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>    
+                                            </span>
+                                            <span class="produce__item-sold">
+                                                Đã bán 2022 
+                                            </span>
+                                        </div>
+        
+                                        <span class="produce__item-address">
+                                            Hà Nội 
+                                        </span> 
+                                        <div class="clear-right"></div>
+                                    </div>                               
+                                </div>
+                            </div>
+                            <div class="produce__item col l-2-4 m-3 c-12">
+                                <div class="produce__item-main">
+                                    <img src="./assets/img/thit.jpg" alt="" class="produce__item-img">
+                                    <div class="produce__item-body">
+                                        <div class="produce__item-header">
+                                            Sản phẩm này có tên là thịt lợn, thịt lợn quê, ngon như nhà làm
+                                        </div>
+                                    
+                                        <a href="" class="produce__item-name">
+                                            Shop abc
+                                        </a> <br>
+        
+                                        <p class="produce__item-price produce__item--freeship">
+                                            <span class="produce__item-unit">đ</span> <span class="produce__item-money">1.000</span>
+                                            - <span class="produce__item-unit">đ</span> <span class="produce__item-money">2.000</span>
+                                        </p>
+        
+                                        <div class="produce__item-status">
+                                            <span class="produce__item--like">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <span class="produce__item-vote">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>    
+                                            </span>
+                                            <span class="produce__item-sold">
+                                                Đã bán 2022 
+                                            </span>
+                                        </div>
+        
+                                        <span class="produce__item-address">
+                                            Hà Nội 
+                                        </span> 
+                                        <div class="clear-right"></div>
+                                    </div>                               
+                                </div>
+                            </div>
+                            <div class="produce__item col l-2-4 m-3 c-12">
+                                <div class="produce__item-main">
+                                    <img src="./assets/img/thit.jpg" alt="" class="produce__item-img">
+                                    <div class="produce__item-body">
+                                        <div class="produce__item-header">
+                                            Sản phẩm này có tên là thịt lợn, thịt lợn quê, ngon như nhà làm
+                                        </div>
+                                    
+                                        <a href="" class="produce__item-name">
+                                            Shop abc
+                                        </a> <br>
+        
+                                        <p class="produce__item-price produce__item--freeship">
+                                            <span class="produce__item-unit">đ</span> <span class="produce__item-money">1.000</span>
+                                            - <span class="produce__item-unit">đ</span> <span class="produce__item-money">2.000</span>
+                                        </p>
+        
+                                        <div class="produce__item-status">
+                                            <span class="produce__item--like">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <span class="produce__item-vote">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>    
+                                            </span>
+                                            <span class="produce__item-sold">
+                                                Đã bán 2022 
+                                            </span>
+                                        </div>
+        
+                                        <span class="produce__item-address">
+                                            Hà Nội 
+                                        </span> 
+                                        <div class="clear-right"></div>
+                                    </div>                               
+                                </div>
+                            </div>
+                            <div class="produce__item col l-2-4 m-3 c-12">
+                                <div class="produce__item-main">
+                                    <img src="./assets/img/thit.jpg" alt="" class="produce__item-img">
+                                    <div class="produce__item-body">
+                                        <div class="produce__item-header">
+                                            Sản phẩm này có tên là thịt lợn, thịt lợn quê, ngon như nhà làm
+                                        </div>
+                                    
+                                        <a href="" class="produce__item-name">
+                                            Shop abc
+                                        </a> <br>
+        
+                                        <p class="produce__item-price produce__item--freeship">
+                                            <span class="produce__item-unit">đ</span> <span class="produce__item-money">1.000</span>
+                                            - <span class="produce__item-unit">đ</span> <span class="produce__item-money">2.000</span>
+                                        </p>
+        
+                                        <div class="produce__item-status">
+                                            <span class="produce__item--like">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <span class="produce__item-vote">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>    
+                                            </span>
+                                            <span class="produce__item-sold">
+                                                Đã bán 2022 
+                                            </span>
+                                        </div>
+        
+                                        <span class="produce__item-address">
+                                            Hà Nội 
+                                        </span> 
+                                        <div class="clear-right"></div>
+                                    </div>                               
+                                </div>
+                            </div>
+                    </div>
+
+                </div>         
+        </div>
+    
+        <footer class="footer">
+    
+        </footer>
+    </div>
+        
+    <!-- Modal layout-->
+    <div class="modal">
+        <div class="modal__overlay">
+
+        </div>
+
+        <div class="modal__body">
+            <!-- Authen form -->
+
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <header class="auth-form__header">
+                        <h3 class="auth-form__heading">
+                            Đăng ký
+                        </h3>
+                        <span class="auth-form__switch-btn">
+                            Đăng nhập    
+                        </span>
+                    </header>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="email" class="auth-form__input" placeholder="Email của bạn...">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn...">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu của bạn...">
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <div class="auth-form__policy-text">
+                            Bằng việc đăng ký, bạn đã đồng ý với chúng tôi về 
+                            <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn">TRỞ LẠI</button>
+                        <button class="btn btn--primary ml-8">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+
+                <footer class="auth-form__socials">
+                    <a href="" class="btn btn--fb btn--size-s btn--with-icon">
+                        <i class="auth-form__socials--fb fa-brands fa-facebook mr-8"></i> 
+                        <span>Đăng ký với facebook</span>
+                    </a>
+                    <a href="" class="btn btn--gg btn--size-s btn--with-icon">
+                        <i class="auth-form__socials--gg fa-brands fa-google mr-8"></i>
+                        Đăng ký với google
+                    </a>
+                </footer>
+            </div>
+            
+            <!-- Form đăng nhập -->
+            <div class="auth-form">
+
+                    <div class="auth-form__container">
+                        <header class="auth-form__header">
+                            <h3 class="auth-form__heading">
+                                Đăng nhập
+                            </h3>
+                            <span class="auth-form__switch-btn">
+                                Đăng ký    
+                            </span>
+                        </header>
+    
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="email" class="auth-form__input" placeholder="Email của bạn...">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn...">
+                            </div>
+                        </div>
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help--password auth-form__help--separate mr-8">Quên mật khẩu</a> 
+                                <a href="" class="auth-form__help--help ml-8">Cần trợ giúp?</a>
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__controls">
+                            <button class="btn">TRỞ LẠI</button>
+                            <button class="btn btn--primary ml-8">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+
+                    <footer class="auth-form__socials">
+                        <a href="" class="btn btn--fb btn--size-s btn--with-icon">
+                            <i class="auth-form__socials--fb fa-brands fa-facebook mr-8"></i> 
+                            <span>Đăng nhập với facebook</span>
+                        </a>
+                        <a href="" class="btn btn--gg btn--size-s btn--with-icon">
+                           <i class="auth-form__socials--gg fa-brands fa-google mr-8"></i>
+                            Đăng nhập với google
+                        </a>
+                    </footer>
+                </div>
+      
+        </div>
+
+    </div>
+
+</body>
+</html>
